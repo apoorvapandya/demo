@@ -7,8 +7,8 @@ const EmployeeActionButtons = (props) => {
     }
     return (
         <>
-        <button onClick={() => clickHandler('E')}>Edit</button>
-        <button onClick={() => clickHandler('D')}>Delete</button>
+        <button onClick={() => clickHandler('E')} class="btn">Edit</button>
+        <button onClick={() => clickHandler('D')} class="btn">Delete</button>
         </>
     )
 }
